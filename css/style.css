@@ -53,8 +53,8 @@ html {
 .ptext {
   position: absolute;
   top: 50%;
-  width: 100%;
   text-align: center;
+  width: 100%;
   color: #000;
   font-size: 27px;
   letter-spacing: 8px;
@@ -62,10 +62,16 @@ html {
 }
 
 .ptext .border {
-  background-color: #111;
   color: #fff;
+  background-color: #111;
+  width: 40%;
+  margin: auto;
   padding: 20px;
   border-radius: 10px;
+}
+
+.no-wrap {
+  white-space: nowrap;
 }
 
 .ptext .border.trans {
@@ -77,5 +83,13 @@ html {
   .pimg2,
   .pimg3 {
     background-attachment: scroll;
+  }
+
+  .section {
+    padding: 50px 20px;
+  }
+
+  .ptext .border {
+    width: 70%;
   }
 }
